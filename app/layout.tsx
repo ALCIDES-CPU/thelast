@@ -8,9 +8,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" })
 
 export const metadata: Metadata = {
-  title: "VFS.GLOBAL",
+  title: "VFS.GLOBAL | Portal visto",
   description:
-    "Plataforma oficial de agendamento de visto para Portugal. Agende sua entrevista consular com seguranca e rapidez.",
+    "Plataforma oficial de agendamento de visto para Portugal.",
   icons: {
     icon: "/logo.png",
     apple: "/logo.png",
