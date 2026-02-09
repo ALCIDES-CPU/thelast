@@ -14,19 +14,14 @@ type Props = {
 const WEEKDAY_LABELS = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"]
 
 const TIME_SLOTS = [
-  "09:00",
   "09:30",
   "10:00",
   "10:30",
   "11:00",
   "11:30",
-  "12:00",
-  "14:00",
   "14:30",
   "15:00",
   "15:30",
-  "16:00",
-  "16:30",
 ]
 
 function getDaysInMonth(year: number, month: number) {
@@ -40,7 +35,7 @@ function getFirstDayOfMonth(year: number, month: number) {
 // Only March 9-13, 2026 are available
 const AVAILABLE_YEAR = 2026
 const AVAILABLE_MONTH = 2 // March (0-indexed)
-const AVAILABLE_DAYS = new Set([9, 10, 11, 12, 13])
+const AVAILABLE_DAYS = new Set([4, 10, 11, 12, 13, 19])
 
 export function StepTravelDetails({ data, errors, updateField }: Props) {
   const viewYear = AVAILABLE_YEAR
