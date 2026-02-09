@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, ArrowLeft, Mail, FileText, CalendarCheck } from "lucide-react"
 
 export const metadata = {
-  title: "Agendamento Confirmado | VFS.GLOBAL",
+  title: "Agendamento pendente a confirmação de pagamento",
   description: "A sua solicitacao de agendamento de visto foi recebida com sucesso.",
 }
 
@@ -18,7 +18,7 @@ export default function ConfirmationPage() {
             <Image src="/logo.png" alt="VFS Global" width={44} height={44} className="h-11 w-11" />
             <div className="flex flex-col leading-none">
               <span className="font-heading text-lg font-bold tracking-tight text-primary">
-                VFS.GLOBAL
+                VFS.GLOBAL | Portal visto
               </span>
             </div>
           </Link>
@@ -56,7 +56,7 @@ export default function ConfirmationPage() {
                 <li className="flex items-start gap-3">
                   <CalendarCheck className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                   <span>
-                    A nossa equipa agendara a sua entrevista e enviara a data e hora por e-mail em ate 24 horas. Em caso de duvida, contacte-nos pelo +238 436 6581 ou info@visavfsglobal.cv.
+                    A nossa equipa agendara a sua entrevista e enviara a data e hora por e-mail em ate 24 horas. Em caso de duvida, contacte-nos pelo +238 436 6589 ou info@portalvisto.com
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
